@@ -32,7 +32,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE BirdTable (id INTEGER PRIMARY KEY, name TEXT, description TEXT)");
+        db.execSQL("CREATE TABLE BirdTable (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, name TEXT, description TEXT)");
     }
 
     @Override

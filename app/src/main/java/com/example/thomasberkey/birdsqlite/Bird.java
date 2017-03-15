@@ -24,6 +24,11 @@ public class Bird {
         this.description = description;
     }
 
+    public Bird(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
     public Bird(int id, String name) {
         this.id = id;
         this.name = name;
